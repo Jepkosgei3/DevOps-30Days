@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/weather2.jpg'); /* Full-screen background image */
+    background-size: cover; /* Cover the entire screen */
+    color: white;
+    text-align: center;
+}
+
+#weather-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.city {
+    background-color: rgba(250, 249, 248, 0.8); /* Semi-transparent orange background */
+    border: 2px solid rgb(248, 97, 43); /* Orangered borders */
+    opacity: 0.8;
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px;
+    width: 30%; /* Cover 30% of the screen */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.city img {
+    width: 80%; /* Make images responsive */
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+}

@@ -1,0 +1,136 @@
+{
+    "Nairobi": {
+        "coord": {
+            "lon": 36.8167,
+            "lat": -1.2833
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.62,
+            "feels_like": 26.62,
+            "temp_min": 26.62,
+            "temp_max": 26.62,
+            "pressure": 1008,
+            "humidity": 39,
+            "sea_level": 1008,
+            "grnd_level": 835
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.6,
+            "deg": 30
+        },
+        "clouds": {
+            "all": 40
+        },
+        "dt": 1737640179,
+        "sys": {
+            "type": 1,
+            "id": 2543,
+            "country": "KE",
+            "sunrise": 1737603544,
+            "sunset": 1737647384
+        },
+        "timezone": 10800,
+        "id": 184745,
+        "name": "Nairobi",
+        "cod": 200
+    },
+    "Arusha": {
+        "coord": {
+            "lon": 36.6833,
+            "lat": -3.3667
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.87,
+            "feels_like": 28.63,
+            "temp_min": 29.87,
+            "temp_max": 29.87,
+            "pressure": 1007,
+            "humidity": 30,
+            "sea_level": 1007,
+            "grnd_level": 860
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.09,
+            "deg": 330
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1737640420,
+        "sys": {
+            "type": 1,
+            "id": 2607,
+            "country": "TZ",
+            "sunrise": 1737603399,
+            "sunset": 1737647593
+        },
+        "timezone": 10800,
+        "id": 161325,
+        "name": "Arusha",
+        "cod": 200
+    },
+    "Kampala": {
+        "coord": {
+            "lon": 32.5822,
+            "lat": 0.3163
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.86,
+            "feels_like": 26.96,
+            "temp_min": 26.86,
+            "temp_max": 26.86,
+            "pressure": 1006,
+            "humidity": 44,
+            "sea_level": 1006,
+            "grnd_level": 878
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.83,
+            "deg": 166,
+            "gust": 3.23
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1737640302,
+        "sys": {
+            "country": "UG",
+            "sunrise": 1737604696,
+            "sunset": 1737648265
+        },
+        "timezone": 10800,
+        "id": 232422,
+        "name": "Kampala",
+        "cod": 200
+    }
+}
