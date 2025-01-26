@@ -50,8 +50,10 @@ The create_glue_database() and create_glue_table() functions set up a Glue datab
 The configure_athena() function configures Athena to query the data stored in the S3 bucket by specifying an output location for query results.
 
 6. Running the Script
-'''python3 nba_data_lake.py'''
+    ```bash
+    python3 nba_data_lake.py'''
 This will create the S3 bucket, fetch the NBA data, upload it to S3, and configure the Glue and Athena resources.
+
 Cleanup
 The delete_all.py script provides functionality to delete the created resources:
 
@@ -59,7 +61,7 @@ Delete S3 Bucket and its contents.
 Delete Glue Database and its tables.
 Delete Athena query results stored in the S3 bucket.
 Run the script using:
-
-'''python3 delete_all.py'''
+ ```bash
+ python3 delete_all.py
 
 
