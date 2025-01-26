@@ -1,4 +1,4 @@
-![alt text](https://github.com/Jepkosgei3/DevOps-30Days/blob/main/NBA_DATA_LAKE_AWS/nbadatalake.drawio.png)
+![alt text](https://github.com/Jepkosgei3/DevOps-30Days/blob/main/Day3%3A%20NBA_DATA_LAKE_AWS/nbadatalake.drawio.png)
 # NBA Data Lake Setup with AWS S3, Glue, and Athena
 
 This project demonstrates how to create a data lake in AWS for NBA sports analytics using several AWS services, including S3, Glue, and Athena. The goal is to set up an automated pipeline that fetches NBA data, stores it in S3, registers the data in AWS Glue, and enables querying via Athena.
