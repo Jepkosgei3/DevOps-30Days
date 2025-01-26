@@ -1,7 +1,3 @@
-// Ensure to include the AWS SDK in your HTML file
-// <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.12.min.js"></script>
-
-// Fetch weather data from the local JSON file
 async function fetchWeatherData() {
     try {
         const response = await fetch('weather_data.json');
