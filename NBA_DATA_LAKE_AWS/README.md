@@ -24,8 +24,9 @@ Before running the script, you need to set up the following:
    pip install boto3 requests python-dotenv
 3. **Environment Variables:**:
    Create a .env file in the root directory of your project and add the following variables:
-   '''SPORTS_DATA_API_KEY=your_sportsdata_api_key
-   NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players'''
+    ```bash
+    SPORTS_DATA_API_KEY=your_sportsdata_api_key
+    NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players'''
 4. **IAM Role**:
    Ensure the IAM role used has the following permissions:
 
